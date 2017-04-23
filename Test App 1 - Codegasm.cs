@@ -13,8 +13,11 @@ namespace Test_App_1__Codegasm
         // This is a function, also the entry point
         static void Main(string[] args)
         {
+
+            // this is a string variable
+            string displayText = "Hello world!";
             // Starting point of the program
-            Console.WriteLine("Hello world!");
+            Console.WriteLine(displayText);
 
         } // end function
     } // end class
